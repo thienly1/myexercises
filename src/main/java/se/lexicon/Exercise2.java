@@ -2,12 +2,12 @@ package se.lexicon;
 
 import java.util.Scanner;
 
-public class Bai2 {
+public class Exercise2 {
     public static void main(String[] args) {
-        Scanner bai2 = new Scanner(System.in);
+        Scanner Exer2 = new Scanner(System.in);
 
         System.out.println("enter the year: ");
-        int year = bai2.nextInt();
+        int year = Exer2.nextInt();
 
         int leap = year % 400;
         int leap1 = year % 4;

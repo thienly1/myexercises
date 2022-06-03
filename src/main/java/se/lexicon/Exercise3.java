@@ -1,6 +1,6 @@
 package se.lexicon;
 
-public class Bai3 {
+public class Exercise3 {
     public static void main(String[] args) {
 
         byte num1 = 45;

@@ -3,16 +3,16 @@ package se.lexicon;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Bai8 {
+public class Exercise8 {
     public static void main(String[] args) {
 
         Random ran = new Random();
         int randomNumber = 1 + ran.nextInt(500);
 
-        Scanner bai8 = new Scanner(System.in);
+        Scanner exer8 = new Scanner(System.in);
         while (true) {
             System.out.println("Pls enter your guess! (1-500)");
-            int guessNumber = bai8.nextInt();
+            int guessNumber = exer8.nextInt();
 
             if (guessNumber == randomNumber) {
                 System.out.println("That's correct! the random number is " + randomNumber);

@@ -2,16 +2,16 @@ package se.lexicon;
 
 import java.util.Scanner;
 
-public class Bai6 {
+public class Exercise6 {
 
     public static void main(String[] args) {
-        Scanner bai6 = new Scanner(System.in);
+        Scanner exer6 = new Scanner(System.in);
         int number1;
         int number2;
         System.out.println("pls enter first number: ");
-        number1 = bai6.nextInt();
+        number1 = exer6.nextInt();
         System.out.println(" pls enter second number: ");
-        number2 = bai6.nextInt();
+        number2 = exer6.nextInt();
         int sum = number1 + number2;
         int subtraction = number1 - number2;
         int multiplication = number1 * number2;
