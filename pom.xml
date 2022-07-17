@@ -6,7 +6,11 @@
 
     <groupId>se.lexicon</groupId>
     <artifactId>my_exercises</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>CollectionExercise</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

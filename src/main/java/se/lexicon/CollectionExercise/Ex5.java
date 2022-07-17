@@ -9,8 +9,10 @@ import java.util.*;
 
 public class Ex5 {
     public static void main(String[] args) {
-        Set<Enum> wholeWeek = new TreeSet<>();
+        Set<Enum> wholeWeek = new HashSet<>();
         wholeWeek.addAll(Arrays.asList(DAYS_IN_WEEK.values()));
+        Set<Enum> wholeWeek1 = new TreeSet<>(wholeWeek);
+        System.out.println("wholeWeek1 = " + wholeWeek1);
 
         
     }

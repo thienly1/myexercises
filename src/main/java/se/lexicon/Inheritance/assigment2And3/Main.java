@@ -24,18 +24,13 @@ public class Main {
         //youngAdultBook.loan();
 
         for ( Book i : names){
-            if (!i.getCategory().equals(Category.NOT_LOANABLE)) {
+            if (i instanceof Loanable) { // if i is instantiated from Loanable Interface
                 System.out.println(" The books have instance of The Loanable interface are : " +i);
             }
             if (i.getCategory().equals(Category.NOT_LOANABLE)){
                 System.out.println("The book that is not loanable is: " +i);
             }
         }
-
-
-
-
-
        for( Book i : names){
             if(i.getCategory().equals(Category.CHILD)){
                 System.out.println(" The book that has category CHILD is : " + i);

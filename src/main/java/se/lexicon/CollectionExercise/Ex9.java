@@ -13,7 +13,7 @@ public class Ex9 {
 
         Car car1 = new Car(21, "Toyota");
         Car car2 = new Car( 23, "Volvo");
-        Car car3 = new Car(12,"Huyndai");
+        Car car3 = new Car(12,"Hyundai");
         Car car4 = new Car(14, "ABS");
 
         car.put(car1.getId(), car1.getCarBrand());
